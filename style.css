@@ -73,3 +73,16 @@ a:hover{
 	color: #000000;
 	cursor: pointer;
 }
+#countimage1{
+	width: 15%;
+	height: 15%;
+}
+#countimage2{
+	width: 55%;
+	height: 55%;
+}
+
+#countimage3{
+	width: 45%;
+	height: 45%;
+}
