@@ -1,7 +1,11 @@
+* {
+	font-family: '맑은 고딕', 'Magun Gothic', 'Sans Serif';
+	user-select: none;
+}
 body{
 	margin: 0;
 	background-color : #FFFFFF;
-  }
+}
 #username{
 	font-size: 45px;
 	color: white;
@@ -17,28 +21,38 @@ body{
 	padding: 10px;
 
 }
-#education{
+#division{
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 15px;
+}
+#division2{
 	font-size: 25px;
 	padding: 10px 10px;
 	position: relative;
 }
+#division3{
+	font-size: 100%;
+	padding-top: 0.5%;
+}
+#division4{
+	font-size: 80%;
+	padding-left: 2%;
+	padding-top: 1%;
+	padding-bottom: 0.5%
+}
 li{
 	border: 1px solid black;
 	border-radius: 5px;
-	padding: 5px 5px;
-	margin: 5px;
+	padding-left: 5px;
 	width: 95%;
+	margin: 5px;
 	list-style: none;
 }
 li:hover{
 	background-color: #000000;
-}
-#test{
-	border: 3px solid black;
-	border-radius: 5px;
-	width: 80%;
-	margin-left: 10px;
-	margin-bottom: 15px;
 }
 a{
 	color: #000000;
@@ -47,14 +61,6 @@ a{
 }
 a:hover{
 	color: #ffffff;
-}
-#educationtitle{
-	font-size: 17px;
-}
-#educationtitle2{
-	font-size: 14px;
-	padding-left: 10px;
-	padding-top: 5px;
 }
 #copy{
 	text-align: center;
